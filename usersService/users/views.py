@@ -10,3 +10,9 @@ def login(request):
 
 def logout(request):
     return HttpResponse("you have suucessfully logged out")
+
+def users(request):
+    return HttpResponse("All users are here now ")
+
+
+what are u not allowed to do?
